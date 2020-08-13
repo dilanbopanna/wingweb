@@ -15,6 +15,12 @@ import day5 from '../assests/images/FDP.5.5.jpeg'
 import syn1 from '../assests/images/syn1.jpg'
 import syn2 from '../assests/images/syn2.jpg'
 import syn3 from '../assests/images/syn3.jpg'
+import collab from '../assests/images/collab.jpeg'
+import paperwriting from '../assests/images/paperwriting.jpeg'
+import paperwriting1 from '../assests/images/paperwriting1.jpeg'
+import wingcollab from '../assests/images/wingcollab.jpeg'
+import wingday1 from '../assests/images/wingday1.jpeg'
+import wingday2 from '../assests/images/wingday2.jpeg'
 
 import Galleryimage from '../components/galleryimage'
 function GalleryPage(props) {
@@ -26,13 +32,7 @@ function GalleryPage(props) {
                     <h2>GALLERY</h2>
                     <div class='dash'></div>
                 <div class='row2'>
-                    <div class='column2'>
-                   <Galleryimage
-                   image={meet1}
-                   title='First Meeting'
-                   desc=''
-                   />
-                    </div>
+                    
                     <div class='column2'>
                     <Galleryimage
                    image={inau}
@@ -42,8 +42,15 @@ function GalleryPage(props) {
                     </div>
                     <div class='column2'>
                     <Galleryimage
-                   image={inau4}
-                   title='Wing Inauguration'
+                   image={wingcollab}
+                   title='USCP Collaboration'
+                   desc='Agreement with USCP Research Group of NIE'
+                   />
+                    </div>
+                    <div class='column2'>
+                    <Galleryimage
+                   image={collab}
+                   title='USCP Collaboration'
                    desc=''
                    />
                     </div>
@@ -51,14 +58,14 @@ function GalleryPage(props) {
                 <div class='row2'>
                     <div class='column2'>
                    <Galleryimage
-                   image={inau3}
-                   title='Wing Members'
+                   image={wingday1}
+                   title='Wing Day'
                    desc=''
                    />
                     </div>
                     <div class='column2'>
                     <Galleryimage
-                   image={pspw2}
+                   image={paperwriting}
                    title='Workshop'
                    desc='Paper Writing Skills'
                    />
@@ -150,15 +157,15 @@ function GalleryPage(props) {
                     </div>
                     <div class='column2'>
                     <Galleryimage
-                   image={syn1}
-                   title='Symposium on Networking'
+                   image={wingday2}
+                   title='Wing day'
                    desc=''
                    />
                     </div>
                     <div class='column2'>
                     <Galleryimage
-                   image={syn2}
-                   title='Symposium on Networking'
+                   image={paperwriting}
+                   title='Paper writing workshop'
                    desc=''
                    />
                     </div>

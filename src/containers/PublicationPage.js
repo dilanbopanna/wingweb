@@ -112,6 +112,10 @@ IJPAM (2018)”</span>,  (Scopus Indexed)</p>
                     <br/>
                     <hr />
                     <p>Tanuja U, Gururaj H L, Janhavi V <span>“An Exploratory Study in data features and Analysis Techniques in Social Networks”</span>, COMSNETS (2018), IISc, Bengaluru. (Tier-1 Conference, Acceptance Ratio=4%, Scopus and Web of Science Indexed)
+</p>         
+<br/>
+                    <hr />
+                    <p>Manasvi J Maasthi, Gururaj HL, Janhavi V, Harshitha K, Swathi B H,<span> "An Interactive Approach Deployed for Rhinoplasty using Mixed Reality"</span>, 12th International Conference on COMmunication Systems & NETworkS 2020 .
 </p>
                     </Reveal>
                     <img class='divline-img'src={divline} alt=''/>

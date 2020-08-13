@@ -10,8 +10,12 @@ function EventPage(props) {
             <div class='about'>
                 <div class='block'>
                     <h2>UPCOMING EVENTS</h2>
+                    
+                    <br />
                     <div class='dash'></div>
                     <br />
+                    <h4>Fourth Workshop on Paper Writing Skills</h4>
+                    <p>September</p>
                     <img class='divline-img'src={divline} alt=''/>
                     <h2>COMPLETED EVENTS</h2>
                     <div class='dash'></div>
@@ -28,9 +32,9 @@ function EventPage(props) {
                     <br/>
                     <h4>National Symposium on Networking(SoN)</h4>
                     <p>Monday, 30th April, at 09:30
-                        
+                    <br /> 
                     </p>
-
+                
                     <br/>
                     <h4>Paper Writing Skills Workshop</h4>
                     <p>Saturday, 15th September</p>
@@ -46,6 +50,30 @@ function EventPage(props) {
                     <br/>
                     <h4>One day paper writing skills</h4>
                     <p>September 7th, 2019</p>
+                    <br/>
+                    <h4>2- days Hands-on workshop on Python</h4>
+                    <p>10th and 11th march 2020
+       
+                    </p>
+                    <br/>
+                    <h4>Three day faculty development Program on “ Blockchain Technology and its Applications</h4>
+                    <p>22nd june – 24th june 2020
+
+                      
+                    </p>
+                    <br/>
+                    <h4>Webinar on "Quantum Computing"</h4>
+                    <p>4th july 2020
+
+                        
+                    </p>
+                    <br/>
+                    <h4>International Colloquium on Recent Trends in Computer Science and Engineering (ICRTCS) </h4>
+                    <p>20th july – 24th july 2020 
+
+
+                        
+                    </p>
                     </Reveal>
                     <br/>
                     <img class='divline-img'src={divline} alt=''/>

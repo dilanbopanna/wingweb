@@ -12,7 +12,7 @@ import harshitha_k from '../assests/images/harshitha_k.jpeg'
 import janhavi from '../assests/images/janhavi.jpeg'
 import megha_v from '../assests/images/megha_v.jpeg'
 import poornima from '../assests/images/poornima.jpeg'
-import poornima_t from '../assests/images/gururaj.jpeg'
+import poornima_t from '../assests/images/poornima_t.jpeg'
 import praveen from '../assests/images/praveen.jpeg'
 import pushkin from '../assests/images/pushkin.jpeg'
 import shashank from '../assests/images/shashank.jpeg'
@@ -40,22 +40,22 @@ const Card = (props) => {
   <div class="column2">
   <Cardinfo 
   image={gururaj}
-  name='Dr Gururaj H L'
+  name='Dr. Gururaj H L'
   about='Associate Professor, Department of Computer Science and Engineering'
-  more='https://drive.google.com/file/d/1CnRGi3RS-aMABKlc7aVt3gfXWimtcHpO/view'
+  more='https://itsmeguru.in/'
   linkedin='https://www.linkedin.com/in/dr-gururaj-h-l-92513539/'
-  facebook=''
+  facebook='https://www.facebook.com/gururaj.gowda1/'
   />
   </div>
 
   <div class="column2">
   <Cardinfo 
   image={janhavi}
-  name='Prof. Janhavi H'
+  name='Prof. Janhavi V'
   about='Associate Professor, Department of Computer Science and Engineering'
   more='https://docs.google.com/a/vvce.ac.in/viewer?a=v&pid=sites&srcid=dnZjZS5hYy5pbnxjb21wdXRlci1zY2llbmNlLWFuZC1lbmdpbmVlcmluZ3xneDozZTg0M2MwNGNkZjI3NmIx'
-  linkedin=''
-  facebook=''
+  linkedin='https://www.linkedin.com/in/janhavi-v-5108131ab/'
+  facebook='https://www.facebook.com/janhavi.vishwanath.7'
   />
   </div>
   
@@ -84,8 +84,8 @@ const Card = (props) => {
   name='Prof. Poornima N'
   about='Assistant Professor, Department of Computer Science and Engineering'
   more='https://drive.google.com/file/d/1WjdlHuRrICZQAfTgodtsF0VMnEfXfhc8/view'
-  linkedin=''
-  facebook=''
+  linkedin='https://www.linkedin.com/in/poornima-n-a1b1aa84/'
+  facebook='https://www.facebook.com/poorniman.poorni'
   />
 </div>
 <div class='column2'>
@@ -105,10 +105,10 @@ const Card = (props) => {
     <Cardinfo 
   image={praveen}
   name='Prof. Praveen K S'
-  about='Assistant Professor, Department of Electronics and Communication Engineering'
+  about='Assistant Professor,Dept of Electronics Communication & Engineering'
   more='https://drive.google.com/file/d/16tElBJf-OYrM50z1F39fkSKPmDIl6d-M/view'
-  linkedin=''
-  facebook=''
+  linkedin='https://www.linkedin.com/in/praveengowdaks/'
+  facebook='https://m.facebook.com/Praveen.Ks.Gowda?ref=bookmarks'
   />
 </div>
 <div class='column2'>
@@ -117,8 +117,8 @@ const Card = (props) => {
   name='Prof. Shashank N'
   about='Assistant Professor, Department of Computer Science and Engineering'
   more='https://drive.google.com/file/d/0B5xUuteK0ddjSmdoTkZBVDlkNGdJS1lCTmNKTC12dE1DMVBz/view'
-  linkedin=''
-  facebook=''
+  linkedin='https://www.linkedin.com/in/shashank-n-74493383/'
+  facebook='https://www.facebook.com/shashank.shashu.18'
   />
   </div>
 <div class='column2'>
@@ -129,7 +129,6 @@ const Card = (props) => {
   image={harshitha_k}
   name='Prof. Harshitha K'
   about='Assistant Professor, Department of Computer Science and Engineering'
-  more=''
   linkedin=''
   facebook=''
   />
@@ -142,8 +141,8 @@ const Card = (props) => {
   name='Prof. Swathi B H'
   about='Assistant Professor, Department of Computer Science and Engineering'
   more='https://drive.google.com/file/d/1j9LqeDsmR5laFrwkR9-xgXa9OiedhpH0/view'
-  linkedin=''
-  facebook=''
+  linkedin='https://www.linkedin.com/mwlite/in/swathi-b-h-545173141'
+  facebook='https://www.facebook.com/swathi.gowda.3348'
   />
     </div>
     <div class='column2'>
@@ -152,8 +151,8 @@ const Card = (props) => {
   name='Prof. Megha V'
   about='Assistant Professor, Department of Computer Science and Engineering'
   more='https://drive.google.com/file/d/1aN62rGs0CKVRfpd5MmWxFYqOX6FMf78-/view'
-  linkedin=''
-  facebook=''
+  linkedin='https://www.linkedin.com/in/megha-v-b61b3b150'
+  facebook='https://www.facebook.com/megha.suresh.56808'
   />
 </div>
 <div class='column2'>
@@ -175,8 +174,8 @@ const Card = (props) => {
   name='Prof. Aishwarya T'
   about='Assistant Professor, Department of Computer Science and Engineering'
   more='https://drive.google.com/file/d/1xMczLnBHkL6C2zKA3rMV6I0nei4BLVsY/view'
-  linkedin=''
-  facebook=''
+  linkedin='https://www.linkedin.com/in/aishwarya-t-64556417b'
+  facebook='https://www.facebook.com/aish.9528'
   />
     </div>
     <div class='column2'>
@@ -184,8 +183,7 @@ const Card = (props) => {
   image={gagana_s}
   name='Prof. Gagana S'
   about='Assistant Professor, Department of Computer Science and Engineering'
-  more=''
-  linkedin=''
+  linkedin='https://www.linkedin.com/in/gagana-s-79596a130'
   facebook=''
   />
 </div>
@@ -194,24 +192,30 @@ const Card = (props) => {
   image={gouthamb}
   name='Prof. Goutham B'
   about='Assistant Professor, Department of  Electrical and Electronics Engineering'
-  more=''
-  linkedin=''
-  facebook=''
+  linkedin='https://www.linkedin.com/in/goutham-b-6385631a2'
+  facebook='https://www.facebook.com/goutham.921'
   />
 </div>
 
 </div>
 <div class='row2'>
    
-   
+<div class='column2'>
+<Cardinfo 
+  image={poornima_t}
+  name='Poornima T'
+  about='Assistant Professor, Department of Computer Science and Engineering'
+  linkedin=''
+  facebook=''
+  />
+</div>
 <div class='column2'>
 <Cardinfo 
   image={pushkin}
   name='Pushkin K M'
-  about='Assistant Instructor, Department of Computer Science and Engineering'
-  more=''
-  linkedin=''
-  facebook=''
+  about='Instructor, Department of Computer Science and Engineering'
+  linkedin='https://www.linkedin.com/in/pushkin-k-m-b6490743'
+  facebook='https://www.facebook.com/pushkin.km'
   />
 </div>
 
@@ -226,8 +230,8 @@ const Card = (props) => {
   image={manasvi}
   name='Manasvi J Maasthi'
   about='General Secretary, Department of Computer Science and Engineering'
-  linkedin=''
-  facebook=''
+  linkedin='https://www.linkedin.com/in/manasvi-j-maasthi-282994199/'
+  facebook='https://www.facebook.com/manasvi.jmaasthi.3'
   />
     </div>
     <div class='column2'>
@@ -235,8 +239,8 @@ const Card = (props) => {
   image={prajwal}
   name='Prajwal Hebbar A S'
   about='External Affairs, Department of Computer Science and Engineering'
-  linkedin=''
-  facebook=''
+  linkedin='https://www.linkedin.com/in/prajwal-hebbar-7740531a2/'
+  facebook='https://www.facebook.com/prajwal.hebbar.7'
   />
 </div>
 <div class='column2'>
@@ -244,8 +248,8 @@ const Card = (props) => {
   image={trupti}
   name='Trupthi Raghu'
   about='Sponsorship Co-Ordinator, Department of Computer Science and Engineering'
-  linkedin=''
-  facebook=''
+  linkedin='https://www.linkedin.com/in/trupthi-raghu-143111178/'
+  facebook='https://www.facebook.com/trupthi.raghu'
   />
 </div>
     
@@ -256,9 +260,9 @@ const Card = (props) => {
     <Scardinfo 
   image={shradda}
   name='Shraddha'
-  about='Membership Co-Ordinator, Department of Computer Science and Engineering'
-  linkedin=''
-  facebook=''
+  about='Membership Co-Ordinator,Department of Computer Science & Engineering'
+  linkedin='https://www.linkedin.com/in/shraddha-manjunath-a5572717a/'
+  facebook='https://www.facebook.com/shraddha.m.kunchi'
   />
     </div>
     <div class='column2'>
@@ -266,8 +270,7 @@ const Card = (props) => {
   image={veena}
   name='Veena H'
   about='Event Co-Ordinator, Department of Computer Science and Engineering'
-  linkedin=''
-  facebook=''
+  linkedin='https://www.linkedin.com/in/veena-h-a7815816b/'
   />
 </div>
 <div class='column2'>
@@ -275,8 +278,8 @@ const Card = (props) => {
   image={chetan}
   name='Chetan S S'
   about='Technical Co-Ordinator, Department of Computer Science and Engineering'
-  linkedin=''
-  facebook=''
+  linkedin='https://www.linkedin.com/in/chethan-s-s-gowda2512/'
+  facebook='https://www.facebook.com/chethan.ss.chethanchinnu'
   />
 </div>
     
@@ -287,8 +290,8 @@ const Card = (props) => {
   image={anjali}
   name='Anjali M'
   about='Internal Affairs, Department of Computer Science and Engineering'
-  linkedin=''
-  facebook=''
+  linkedin='https://www.linkedin.com/in/anjali-gowda-518106178/'
+  facebook='https://www.facebook.com/profile.php?id=100006893350367'
   />
     </div>
     <div class='column2'>
@@ -296,8 +299,8 @@ const Card = (props) => {
   image={bops}
   name='Bopanna M J'
   about='Web Designer, Department of Computer Science and Engineering'
-  linkedin=''
-  facebook=''
+  more='https://bopanna.me/'
+  linkedin='https://www.linkedin.com/in/bopannamj4a7a7/'
   />
 </div>
 

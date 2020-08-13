@@ -12,6 +12,7 @@ render() {
    <div class='content2'>
   <h2>{this.props.name}</h2>
    <p>{this.props.about}</p>
+   <a href={this.props.more} class='more' target='_blank' >Know more</a>
    <div class='media1'>
    <a href={this.props.linkedin} target='_blank' class='linkdin'><i class="fa fa-linkedin" aria-hidden="true"/></a>
    <a href={this.props.facebook} target='_blank' class='face-book'><i class="fa fa-facebook" aria-hidden="true"/></a>    

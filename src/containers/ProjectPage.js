@@ -14,7 +14,13 @@ function ProjectPage(props) {
               <Reveal top>
               
               <h5>VVCE Monitoring System</h5>
-              <p>Seed funded project “VVCE Monitoring System” from our Institution.</p>
+              <p>Seed funded project “VVCE Monitoring System” from our Institution, 2018.</p>
+              <br/>
+              <hr></hr>
+              <h5>Automatic Hand Sanitizer Dispenser</h5>
+              <p>Trupthi R and R Darshan Urs under the guidance of Dr. Gururaj H L designed an “Automatic Hand Sanitizer Dispenser”, 2020
+</p>
+              
               </Reveal>
               <img class='divline-img'src={divline} alt=''/>
           </div>
