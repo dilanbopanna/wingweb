@@ -129,7 +129,7 @@ const Card = (props) => {
   image={harshitha_k}
   name='Prof. Harshitha K'
   about='Assistant Professor, Department of Computer Science and Engineering'
-  linkedin=''
+  linkedin='https://www.linkedin.com/in/harshitha-k-35571a59'
   facebook=''
   />
   </div>
@@ -199,16 +199,6 @@ const Card = (props) => {
 
 </div>
 <div class='row2'>
-   
-<div class='column2'>
-<Cardinfo 
-  image={poornima_t}
-  name='Poornima T'
-  about='Assistant Professor, Department of Computer Science and Engineering'
-  linkedin=''
-  facebook=''
-  />
-</div>
 <div class='column2'>
 <Cardinfo 
   image={pushkin}
@@ -218,6 +208,16 @@ const Card = (props) => {
   facebook='https://www.facebook.com/pushkin.km'
   />
 </div>
+<div class='column2'>
+<Cardinfo 
+  image={poornima_t}
+  name='Poornima T'
+  about='Assistant Professor, Department of Computer Science and Engineering'
+  linkedin=''
+  facebook=''
+  />
+</div>
+
 
 </div>
 
