@@ -212,7 +212,7 @@ const Card = (props) => {
 <Cardinfo 
   image={poornima_t}
   name='Poornima T'
-  about='Assistant Professor, Department of Computer Science and Engineering'
+  about='Instructor, Department of Civil Engineering'
   linkedin=''
   facebook=''
   />
